@@ -1,4 +1,6 @@
-package etapa2.etapa2.controllers;
+package etapa2.etapa2.model.entity;
+
+import etapa2.etapa2.model.entity.Usuario;
 
 public class Pessoa {
     private String nome;

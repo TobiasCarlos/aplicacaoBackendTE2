@@ -1,4 +1,7 @@
-package etapa2.etapa2.controllers;
+package etapa2.etapa2.model.entity;
+import etapa2.etapa2.model.entity.Cliente;
+import etapa2.etapa2.model.entity.Funcionario;
+import etapa2.etapa2.model.entity.Produto;
 import org.springframework.util.unit.DataSize;
 
 import java.util.Set;
