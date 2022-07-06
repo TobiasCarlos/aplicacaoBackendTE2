@@ -1,8 +1,8 @@
-package etapa2.etapa2.model.entity;
-
-import etapa2.etapa2.model.entity.Planta;
+package etapa2.etapa2.model.entity.comercial;
 
 import javax.persistence.*;
+
+import etapa2.etapa2.model.entity.comercial.Planta;
 
 @Entity
 public class Produto {

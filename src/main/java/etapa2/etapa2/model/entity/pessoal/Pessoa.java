@@ -1,8 +1,8 @@
-package etapa2.etapa2.model.entity;
-
-import etapa2.etapa2.model.entity.Usuario;
+package etapa2.etapa2.model.entity.pessoal;
 
 import javax.persistence.*;
+
+import etapa2.etapa2.model.entity.comercial.Usuario;
 
 @Entity
 

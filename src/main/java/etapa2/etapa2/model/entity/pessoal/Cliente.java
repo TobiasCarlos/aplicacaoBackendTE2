@@ -1,4 +1,4 @@
-package etapa2.etapa2.model.entity;
+package etapa2.etapa2.model.entity.pessoal;
 
 import java.util.Set;
 import javax.persistence.DiscriminatorValue;

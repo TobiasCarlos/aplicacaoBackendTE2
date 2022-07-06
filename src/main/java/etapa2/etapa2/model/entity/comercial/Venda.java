@@ -1,7 +1,9 @@
-package etapa2.etapa2.model.entity;
-import etapa2.etapa2.model.entity.Cliente;
-import etapa2.etapa2.model.entity.Funcionario;
-import etapa2.etapa2.model.entity.Produto;
+package etapa2.etapa2.model.entity.comercial;
+
+import etapa2.etapa2.model.entity.comercial.Produto;
+import etapa2.etapa2.model.entity.pessoal.Cliente;
+import etapa2.etapa2.model.entity.pessoal.Funcionario;
+
 import org.springframework.util.unit.DataSize;
 
 import java.util.Set;
@@ -21,6 +23,6 @@ public class Venda {
     private Funcionario funcionario;
     private int id_venda;
     private Set<Cliente> compras;
-    @OneToMany(mappedBy="Venda")
+    @OneToMany(mappedBy = "Venda")
     private Set<Funcionario> vendas;
 }

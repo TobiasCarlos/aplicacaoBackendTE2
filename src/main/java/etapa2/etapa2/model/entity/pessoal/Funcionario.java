@@ -1,7 +1,7 @@
-package etapa2.etapa2.model.entity;
+package etapa2.etapa2.model.entity.pessoal;
 
-import etapa2.etapa2.model.entity.Pessoa;
-import etapa2.etapa2.model.entity.Venda;
+import etapa2.etapa2.model.entity.comercial.Venda;
+import etapa2.etapa2.model.entity.pessoal.Pessoa;
 
 import java.util.Set;
 
@@ -13,5 +13,5 @@ import javax.persistence.Entity;
 
 public class Funcionario extends Pessoa {
     private int id_cliente;
-   // private Set<Venda> vendas;
+    // private Set<Venda> vendas;
 }

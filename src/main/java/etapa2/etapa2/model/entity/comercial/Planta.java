@@ -1,5 +1,7 @@
-package etapa2.etapa2.model.entity;
+package etapa2.etapa2.model.entity.comercial;
+
 import javax.persistence.*;
+
 @Entity
 public class Planta {
     @Id
